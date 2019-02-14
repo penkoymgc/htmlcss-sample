@@ -349,6 +349,10 @@ a img:hover {
 	height: 30px;
 }
 
+#contact .form .tel p {
+	font-size: 13px
+}
+
 #contact .form .type {
 	width: 180px;
 	height: 30px;

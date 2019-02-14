@@ -18,7 +18,7 @@ Route::get('/about','HomeController@about');
 
 Route::get('/portfolio','PortfolioController@portfolio');
 
-// Route::get('/photograph','');
-// Route::get('video','');
+Route::get('/photograph','PortfolioController@photograph');
+Route::get('/video','PortfolioController@video');
 
 Route::get('/contact','FormController@form');

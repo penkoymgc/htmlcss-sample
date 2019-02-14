@@ -28,7 +28,7 @@
 		<div class="content">
 			<h1>Life is beautiful,<br>Snap!Snap!</h1>
 			<p>このWebサイトは、学習用サンプルとして作成する「SNAPPERS」という架空の写真家のポートフォリオサイトです。<br>チュートリアル形式でHTMLとCSSを学びながら完成を目指します。楽しんで作成しましょう。</p>
-			<p class="btn"><a herf="/portfolio">My Portfolio</a></p>
+			<p class="btn"><a href="/portfolio">My Portfolio</a></p>
 		</div>
 	</div>
 	<!-- wrap 終わり -->

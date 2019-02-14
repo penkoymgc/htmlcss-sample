@@ -67,16 +67,16 @@
 				<section>
 					<h2>Photograph</h2>
 					<ul>
-						<li><a herf="/photograph#city">街-City</a></li>
-						<li><a herf="/photograph#beach">海-Beach</a></li>
-						<li><a herf="/photograph#forest">森-Forest</a></li>
+						<li><a href="/photograph#city">街-City</a></li>
+						<li><a href="/photograph#beach">海-Beach</a></li>
+						<li><a href="/photograph#forest">森-Forest</a></li>
 					</ul>
 				</section>
 				<section>
 					<h2>Video</h2>
 					<ul>
-						<li><a herf="/video#movie">Movie</a></li>
-						<li><a herf="/video#short-film">Short film</a></li>
+						<li><a href="/video#movie">Movie</a></li>
+						<li><a href="/video#short-film">Short film</a></li>
 					</ul>
 				</section>
 			</aside>

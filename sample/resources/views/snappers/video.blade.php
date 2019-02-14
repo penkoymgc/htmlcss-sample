@@ -51,7 +51,7 @@
           <h2>Video</h2>
           <ul>
             <li><a href="/video#movie">Movie</a></li>
-            <li><a href="/video#short">Short film</a></li>
+            <li><a href="/video#short-film">Short film</a></li>
           </ul>
         </section>
       </aside>

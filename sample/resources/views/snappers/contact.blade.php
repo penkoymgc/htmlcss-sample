@@ -61,7 +61,7 @@
 								<dt><span class="required">メールアドレス</span></dt>
 								<dd><input type="email" name="email" class="email" required></dd>
 								<dt>お電話番号</dt>
-								<dd><input type="tel" name="tel" class="tel"></dd>
+								<dd><input type="tel" name="tel" class="tel"><p>※ハイフン無しで入力してください</p></dd>
 								<dt>お問い合わせ種別</dt>
 								<dd>
 									<select name="type" class="type">

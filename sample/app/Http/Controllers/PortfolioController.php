@@ -10,4 +10,14 @@ class PortfolioController extends Controller
     {
     	return view('snappers.portfolio');
     }
+
+    public function photograph()
+    {
+    	return view('snappers.photograph');
+    }
+
+    public function video()
+    {
+    	return view('snappers.video');
+    }
 }
