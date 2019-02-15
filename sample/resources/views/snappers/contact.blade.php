@@ -54,7 +54,7 @@
 				<section>
 					<h2 class="icon">Contact form</h2>
 					<div class="form">
-						<form>
+						<form method="POST" action="/contact/send">
 							<dl>
 								<dt><span class="required">お名前</span></dt>
 								<dd><input type="text" name="name" class="name" required></dd>
@@ -79,6 +79,7 @@
 								<dd><textarea name="message" class="message"></textarea></dd>
 							</dl>
 							<button type="submit" class="btn">送信</button>
+							@csrf
 						</form>
 						<div class="attention">
 							<p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージ送信後、48時間以内に担当者よりご連絡いたします。</p>

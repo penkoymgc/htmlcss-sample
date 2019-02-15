@@ -21,4 +21,12 @@ Route::get('/portfolio','PortfolioController@portfolio');
 Route::get('/photograph','PortfolioController@photograph');
 Route::get('/video','PortfolioController@video');
 
-Route::get('/contact','FormController@form');
+Route::get('/contact','FormController@form')->name('contact');
+
+Route::post('/contact/send','FormController@send');
+
+// Route::get('/sample/mailable/preview', function () {
+//   return new App\Mail\SampleNotification();
+// });
+
+// Route::get('/sample/mailable/send', 'SampleController@SampleNotification');
