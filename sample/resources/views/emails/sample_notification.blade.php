@@ -1,39 +1,14 @@
-<!DOCTYPE html>
-<html lang="ja">
-<style>
-  body {
-    background-color: #fffacd;
-  }
-  h1 {
-    font-size: 16px;
-    color: #ff6666;
-  }
-  #button {
-    width: 200px;
-    text-align: center;
-  }
-  #button a {
-    padding: 10px 20px;
-    display: block;
-    border: 1px solid #2a88bd;
-    background-color: #FFFFFF;
-    color: #2a88bd;
-    text-decoration: none;
-    box-shadow: 2px 2px 3px #f5deb3;
-  }
-  #button a:hover {
-    background-color: #2a88bd;
-    color: #FFFFFF;
-  }
-</style>
-<body>
-<p>
-  SNAPPERSへのお問い合わせありがとうございました。
-</p>
-<p>メッセージ送信後、48時間以内に担当者よりご連絡いたします。
-よろしくお願いいたします。</p>
-<p>
-  {{$text}}
-</p>
-</body>
-</html>
+{{ $name }}様
+
+この度はSNAPPERSへのお問い合わせありがとうございました。
+
+
+メッセージ送信後、48時間以内に担当者よりご連絡いたします。
+よろしくお願いいたします。
+
+================================
+SNAPPERS
+Email: o.hassyadai.rkt@gmail.com
+TEL: 012-3456-7890
+代表: 山口ペン子
+================================
